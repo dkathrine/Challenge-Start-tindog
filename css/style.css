@@ -1,0 +1,34 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@media only screen and (min-width: 992px) {
+  body #title {
+    height: 700px;
+  }
+  body #title #head-img img {
+    transform: rotate(20deg);
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 991px) {
+  body #title {
+    height: 700px;
+  }
+  body #title #head-img {
+    align-self: center;
+  }
+  body #title #head-img img {
+    height: 400px;
+  }
+  body #title #head-txt {
+    text-align: center;
+  }
+  body #features {
+    text-align: center;
+  }
+  body #cta h3 {
+    font-size: 2rem;
+  }
+}/*# sourceMappingURL=style.css.map */

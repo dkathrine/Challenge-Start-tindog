@@ -1,0 +1,55 @@
+@import 'mixins.scss';
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@include breakpoint(desktop){
+    body{
+        #title{
+            height: 700px;
+            #head-img{
+                img{
+                    transform: rotate(20deg);
+                }
+            }
+        }
+    }
+}
+
+@include breakpoint(tablet){
+    body{
+        #title{
+            height: 700px;
+            #head-img{
+                align-self: center;
+                img{
+                    height: 400px;
+                }
+            }
+            #head-txt{
+                text-align: center;
+            }
+        }
+        #features{
+            text-align: center;
+        }
+        #cta{
+            h3{
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+// @include breakpoint(phone){
+//     body{
+//         #title{
+//             #head-img{
+//                 width: 100vw;
+//             }
+//         }
+//     }
+// }
