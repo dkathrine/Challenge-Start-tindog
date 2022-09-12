@@ -24,7 +24,6 @@
         #title{
             height: 700px;
             #head-img{
-                align-self: center;
                 img{
                     height: 400px;
                 }
@@ -48,7 +47,15 @@
 //     body{
 //         #title{
 //             #head-img{
-//                 width: 100vw;
+//                 width: 100% !important; 
+//             }
+//             #head-txt{
+//                 width: 100% !important;
+//             }
+//         }
+//         #pricing{
+//             #prices{
+//                 flex-direction: column;
 //             }
 //         }
 //     }

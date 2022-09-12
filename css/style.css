@@ -16,9 +16,6 @@
   body #title {
     height: 700px;
   }
-  body #title #head-img {
-    align-self: center;
-  }
   body #title #head-img img {
     height: 400px;
   }
