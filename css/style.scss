@@ -7,19 +7,6 @@
     box-sizing: border-box;
 }
 
-@include breakpoint(desktop){
-    body{
-        #title{
-            height: 700px;
-            #head-img{
-                img{
-                    transform: rotate(20deg);
-                }
-            }
-        }
-    }
-}
-
 @include breakpoint(tablet){
     body{
         #title{
@@ -39,6 +26,19 @@
         #cta{
             h3{
                 font-size: 2rem;
+            }
+        }
+    }
+}
+
+@include breakpoint(desktop){
+    body{
+        #title{
+            height: 700px;
+            #head-img{
+                img{
+                    transform: rotate(20deg);
+                }
             }
         }
     }
